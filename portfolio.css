@@ -1,0 +1,57 @@
+ .main-menu {
+     list-style-type: none;
+     background-color: pink;
+     padding-left: 30rem;
+ }
+ 
+ #containar {
+     position: -webkit-sticky;
+     /* Safari */
+     position: sticky;
+     top: 0;
+     z-index: 1;
+ }
+ 
+ li {
+     display: inline-block;
+     /* float: right;*/
+ }
+ 
+ li a {
+     display: block;
+     color: #494848;
+     text-align: center;
+     padding: 20px;
+     text-decoration: none;
+     font-family: sans-serif;
+ }
+ 
+ li a:hover:not(.active) {
+     background-color: red;
+ }
+ 
+ .active {
+     background-color: #4CAF50;
+ }
+ 
+ .logo {
+     width: 60px;
+     position: absolute;
+     top: 0px;
+     left: 7px;
+     z-index: 2;
+ }
+ 
+ .back {
+     width: 100%;
+     margin: 0 0 10px 0;
+ }
+ 
+ .name {
+     color: black;
+     font-size: 1em;
+     position: absolue;
+     z-index: 3;
+     left: 30px;
+     bottom: 40px;
+ }
